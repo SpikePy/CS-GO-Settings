@@ -11,6 +11,7 @@ rm -rf .git autoexec.cfg README.md
 git init
 git remote add origin $repo
 git fetch
-git checkout -t origin/master -f
+git checkout -t origin/main -f
 cd -
+
 ```
