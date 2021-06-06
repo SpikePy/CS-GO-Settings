@@ -7,7 +7,7 @@ cd /mnt/c/Games/Steam/steamapps/common/Counter-Strike\ Global\ Offensive/csgo/cf
 repo='git@github.com:SpikePy/CSGO.git'
 
 clear
-rm -rf autoexec.cfg README.md
+rm -rf .git autoexec.cfg README.md
 git init
 git remote add origin $repo
 git fetch
