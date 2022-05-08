@@ -1,0 +1,16 @@
+// Look into radial_quickinventory.txt for reference
+// First item in the list starts at 12 o'clock by default
+
+// Load this file by executing `cl_quickinventory_filename my_radial_quickinventory.txt` in your `autoexec.cfg`
+
+"settings"
+{
+    //ROTATION_OFFSET 360 Degree / 5 Items / 2 * -1 = 36 Degree
+    ROTATION_OFFSET -36
+
+    FLASHBANG    1.0
+    HEGRENADE    1.0
+    SMOKEGRENADE 1.0
+    MOLOTOV      1.0
+    DECOYGRENADE 1.0
+}
